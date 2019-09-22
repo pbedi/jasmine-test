@@ -1,0 +1,35 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #607d8b;
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  color: #bcc8ce;
+  font-size: 52px;
+}
+.p-c {
+  text-transform: none;
+  text-align: unset;
+  font-size: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 2px;
+  font-size: 48px;
+  text-align: center;
+  background: #bcc8ce;
+  color: #607d8b;
+  border: solid 1px #ffffff;
+}
+
+.span,
+.div {
+  font-size: 30px;
+}
+.div {
+  text-transform: none;
+  margin-top: 10px;
+}

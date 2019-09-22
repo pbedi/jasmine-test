@@ -1,0 +1,22 @@
+{
+  "name": "jasmine-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pbedi/jasmine-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pbedi/jasmine-test/issues"
+  },
+  "homepage": "https://github.com/pbedi/jasmine-test#readme",
+  "devDependencies": {
+    "jasmine-expect": "^4.0.3"
+  }
+}

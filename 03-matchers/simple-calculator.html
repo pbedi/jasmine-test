@@ -1,0 +1,25 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./jasmine_favicon.png" type="image/x-icon">
+    <title>Simple Calculator</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/calculator.js"></script>
+    <script src="./js/main.js"></script>
+  </head>
+  <body>
+    <h1 class="title">Simple Calculator</h1>
+    <p class="title p-c">Enter a number:</p>
+    <input class="input" type="text"
+      onchange="calculate(this.value)"
+      placeholder="e.g. 5+3 or 5-3 or 5*3 or 5/3"
+      value="1+2">
+    <div class="title div">
+      Result: <span class="title span" id="result">3</span>
+    </div>
+  </body>
+</html>
